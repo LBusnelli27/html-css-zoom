@@ -19,6 +19,10 @@
     float: right;
 }
 
+.flex {
+    display: flex;
+}
+
 body {
     background-color: #000000;
 }
@@ -29,10 +33,43 @@ header {
     width: 100%;
 }
 
+main {
+    height: 80vh;
+    width: 90%;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+footer {
+    height: 10vh;
+    width: 100%;
+}
+
+
+/* HEADER */
 .window-controller {
     padding: 5px;
     margin: 5px;
     background-color: #4a4a4a;
     color: #ffffff;
     border-radius: 5px;
+}
+
+
+/* MAIN */
+.user-container {
+    background-image: url(../img/sfondo-user.jpeg);
+    background-size: cover;
+    
+    flex-basis: 20%;
+    height: 20vh;
+    flex-direction: column-reverse;
+}
+
+.name-tag {
+    background-color: #4a4a4a;
+    color: #ffffff;
+    padding: 3px;
+    opacity: 0.8;
+    width: 25%;
 }
