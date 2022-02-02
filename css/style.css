@@ -30,6 +30,7 @@
 
 body {
     background-color: #000000;
+    min-width: 900px;
 }
 
 
@@ -94,15 +95,25 @@ footer {
 
 
 /* FOOTER */
-.footer-left-side {
+.footer-items-container {
     align-items: center;
 }
-.footer-left-side div{
+.footer-items-container div{
     padding: 10px;
     text-align: center;
 }
 
-.footer-left-side .footer-icon i {
+.footer-items-container .footer-icon i {
     font-size: 1.8rem;
     padding-bottom: 5px;
+}
+
+.footer-icon .fa-share-square {
+    color: #4bc800;
+}
+
+.end-meeting-footer {
+    background-color: #4a4a4a;
+    color: #f3061b;
+    padding: 1%;
 }
