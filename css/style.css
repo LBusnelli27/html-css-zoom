@@ -37,7 +37,10 @@ main {
     height: 80vh;
     width: 90%;
     margin: 0 auto;
-    overflow-y: auto;
+    overflow-y: scroll;
+
+    flex-wrap: wrap;
+    gap: 30px 10px;
 }
 
 footer {
@@ -59,11 +62,9 @@ footer {
 /* MAIN */
 .user-container {
     background-image: url(../img/sfondo-user.jpeg);
-    background-size: cover;
-    
-    flex-basis: 20%;
-    height: 20vh;
-    flex-direction: column-reverse;
+
+    width: 300px;
+    height: 18vh;
 }
 
 .name-tag {
