@@ -61,6 +61,7 @@ footer {
 
 
 /* HEADER */
+/* Class for the butto on the right part of the header */
 .window-controller {
     padding: 5px;
     margin: 5px;
@@ -84,6 +85,7 @@ footer {
     flex-direction: column-reverse;
 }
 
+/* Name tag */
 .name-tag {
     background-color: #4a4a4a;
     color: #ffffff;
@@ -108,10 +110,12 @@ footer {
     padding-bottom: 5px;
 }
 
+/* Soecific class for coloring the share button in green */
 .footer-icon .fa-share-square {
     color: #4bc800;
 }
 
+/* Specific class for the end meeting button in footer */
 .end-meeting-footer {
     background-color: #4a4a4a;
     color: #f3061b;
