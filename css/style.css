@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.97rem;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -34,9 +39,10 @@ header {
 }
 
 main {
-    height: 80vh;
+    height: 83vh;
     width: 90%;
-    margin: 0 auto;
+    margin: 0px auto;
+    padding-bottom: 50px;
     overflow-y: scroll;
 
     flex-wrap: wrap;
@@ -44,8 +50,12 @@ main {
 }
 
 footer {
-    height: 10vh;
+    height: 7vh;
     width: 100%;
+    background-color: #222222;
+    color: #ffffff;
+
+    justify-content: space-between;
 }
 
 
@@ -68,6 +78,8 @@ footer {
     width: 300px;
     height: 16vh;
 
+    min-height: 190px;
+
     flex-direction: column-reverse;
 }
 
@@ -82,3 +94,15 @@ footer {
 
 
 /* FOOTER */
+.footer-left-side {
+    align-items: center;
+}
+.footer-left-side div{
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-left-side .footer-icon i {
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+}
